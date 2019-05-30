@@ -1,0 +1,48 @@
+.menu-bar{
+    max-width: 1890px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: antiquewhite;
+    .container{
+        max-width: 1920px;
+        display: flex;
+        .logo{
+            cursor: pointer;
+            padding: 27px 55px;
+        }
+        .menu{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            .menu__item{
+                padding: 0;
+                margin: 0;
+                padding: 34px 70px ;
+                border-left: 1px solid #404547;
+                border-bottom: 4px solid #69d2e700;
+                &:hover{
+                    border-bottom: 4px solid #69d2e7;
+                }
+                a{
+                    text-decoration: none;
+                    color: #666666;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 13px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: #69d2e7;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 13px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                    }
+                }
+                &:last-child{
+                    padding-left: 215px;
+                }
+            }
+        }
+    }
+}

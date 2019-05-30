@@ -1,0 +1,13 @@
+.header {
+  max-width: 1890px;
+  padding: 15px 15px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: 0 auto;
+  background-image: url(/build/img/backgrounds/header_bg.png);
+}
+.header .container {
+  width: 990px;
+  margin: 0 auto;
+  text-align: center;
+}
