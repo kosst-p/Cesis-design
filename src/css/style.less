@@ -3,9 +3,13 @@
     
 } */
 
-/* *{
+html{
     box-sizing: border-box;
-} */
+}
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
 //Сброс стилей
 @import "../libs/normalize.css";
 
@@ -14,4 +18,3 @@
 
 //Блоки
 @import "./menu-bar.less";
-@import "./header.less";

@@ -1,48 +1,54 @@
 .menu-bar {
-  max-width: 1890px;
+  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
-  background-color: antiquewhite;
+  color: #666666;
 }
 .menu-bar .container {
-  max-width: 1920px;
+  margin: 0 auto;
   display: flex;
 }
 .menu-bar .container .logo {
+  padding: 30px 55px;
   cursor: pointer;
-  padding: 27px 55px;
-}
-.menu-bar .container .menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-.menu-bar .container .menu .menu__item {
-  padding: 0;
-  margin: 0;
-  padding: 34px 70px ;
-  border-left: 1px solid #404547;
   border-bottom: 4px solid #69d2e700;
 }
-.menu-bar .container .menu .menu__item:hover {
+.menu-bar .container .logo:hover {
   border-bottom: 4px solid #69d2e7;
 }
-.menu-bar .container .menu .menu__item a {
+.menu-bar .container .navigation .menu {
+  list-style: none;
+  display: flex;
+}
+.menu-bar .container .navigation .menu .menu__item {
+  padding: 40px 78px;
+  border-right: 1px solid #404547;
+  border-bottom: 4px solid #69d2e700;
+}
+.menu-bar .container .navigation .menu .menu__item a {
   text-decoration: none;
   color: #666666;
-  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   font-size: 13px;
   font-weight: 400;
-  text-transform: uppercase;
 }
-.menu-bar .container .menu .menu__item a:hover {
+.menu-bar .container .navigation .menu .menu__item a:hover {
   color: #69d2e7;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  text-transform: uppercase;
 }
-.menu-bar .container .menu .menu__item:last-child {
-  padding-left: 215px;
+.menu-bar .container .navigation .menu .menu__item i {
+  cursor: pointer;
+}
+.menu-bar .container .navigation .menu .menu__item i:hover {
+  color: #69d2e7;
+}
+.menu-bar .container .navigation .menu .menu__item:first-child {
+  border-left: 1px solid #404547;
+}
+.menu-bar .container .navigation .menu .menu__item:hover {
+  border-bottom: 4px solid #69d2e7;
+}
+.menu-bar .container .navigation .menu .menu__item:last-child {
+  padding: 40px 40px 0 149px;
+  border-right: none;
+  border-bottom: none;
 }
