@@ -1,0 +1,86 @@
+.header {
+  min-height: 990px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../../build/img/backgrounds/0-header.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #12181c;
+  opacity: 0.7;
+}
+.header .my-container {
+  padding-top: 439px;
+  z-index: 1;
+  width: 1030px;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+.header .my-container .title {
+  text-align: center;
+  margin-bottom: 274px;
+}
+.header .my-container .title .name {
+  font-family: 'Arimo', sans-serif;
+  color: #ffffff;
+  font-size: 75px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.header .my-container .title .description {
+  letter-spacing: 8px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 49px;
+}
+.header .my-container .title .btn {
+  padding: 20px 42px;
+  transition: 0.7s;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+.header .my-container .title .btn-empty {
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+.header .my-container .title .btn-empty:hover {
+  transition: 0.7s;
+  background: linear-gradient(to right, #69d2e7 0%, #817bff 100%);
+}
+.header .my-container .pagination {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+}
+.header .my-container .pagination .pagination__btn {
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+.header .my-container .pagination .pagination__btn:hover {
+  opacity: 1;
+}

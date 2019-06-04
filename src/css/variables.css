@@ -3,7 +3,13 @@ html {
   font-size: 14px;
 }
 html ul,
-html li {
+html li,
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html p {
   margin: 0;
   padding: 0;
 }

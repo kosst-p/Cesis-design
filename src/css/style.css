@@ -15,3 +15,67 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
+html ul,
+html li {
+  margin: 0;
+  padding: 0;
+}
+.menu-bar {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  color: #666666;
+}
+.menu-bar .my-container {
+  margin: 0 auto;
+  display: flex;
+}
+.menu-bar .my-container .logo {
+  padding: 30px 55px;
+  cursor: pointer;
+  border-bottom: 4px solid #69d2e700;
+}
+.menu-bar .my-container .logo:hover {
+  border-bottom: 4px solid #69d2e7;
+}
+.menu-bar .my-container .navigation .menu {
+  list-style: none;
+  display: flex;
+}
+.menu-bar .my-container .navigation .menu .menu__item {
+  padding: 40px 78px;
+  border-right: 1px solid #404547;
+  border-bottom: 4px solid #69d2e700;
+}
+.menu-bar .my-container .navigation .menu .menu__item a {
+  text-decoration: none;
+  color: #666666;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+}
+.menu-bar .my-container .navigation .menu .menu__item a:hover {
+  color: #69d2e7;
+}
+.menu-bar .my-container .navigation .menu .menu__item i {
+  cursor: pointer;
+}
+.menu-bar .my-container .navigation .menu .menu__item i:hover {
+  color: #69d2e7;
+}
+.menu-bar .my-container .navigation .menu .menu__item:first-child {
+  border-left: 1px solid #404547;
+}
+.menu-bar .my-container .navigation .menu .menu__item:hover {
+  border-bottom: 4px solid #69d2e7;
+}
+.menu-bar .my-container .navigation .menu .menu__item:last-child {
+  padding: 40px 40px 0 149px;
+  border-right: none;
+  border-bottom: none;
+}
+.header {
+  background-color: red;
+  width: 100%;
+  height: 100px;
+}
