@@ -1,6 +1,5 @@
 html {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  box-sizing: border-box;
 }
 html ul,
 html li,
@@ -10,6 +9,13 @@ html h3,
 html h4,
 html h5,
 html p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   margin: 0;
   padding: 0;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
 }

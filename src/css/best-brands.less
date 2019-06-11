@@ -1,0 +1,41 @@
+.best-brands{
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    .main-title{
+        color: #2a2d2e;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44.05px;
+        letter-spacing: -1.8px;
+        margin-bottom: 32px;
+    }
+    .main-descr{
+        color: #95999c;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-bottom: 123px;
+    }
+    //добавление отступов img
+    .brands-for-grid{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        cursor: pointer;
+    }
+    //граница справа, при добавлении новых брендов, нужно будет добавлять(менять) этот класс
+    .border-right-img{
+        border-right: 1px solid #95999c;
+        &:last-child{
+            border-right: none;
+        }
+    }
+    //граница снизу, при добавлении новых брендов, нужно будет добавлять(менять) этот класс
+    .border-bottom-img{
+        border-bottom: 1px solid #95999c;
+    }
+}

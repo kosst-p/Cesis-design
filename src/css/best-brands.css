@@ -1,0 +1,38 @@
+.best-brands {
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.best-brands .main-title {
+  color: #2a2d2e;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44.05px;
+  letter-spacing: -1.8px;
+  margin-bottom: 32px;
+}
+.best-brands .main-descr {
+  color: #95999c;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 123px;
+}
+.best-brands .brands-for-grid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+.best-brands .border-right-img {
+  border-right: 1px solid #95999c;
+}
+.best-brands .border-right-img:last-child {
+  border-right: none;
+}
+.best-brands .border-bottom-img {
+  border-bottom: 1px solid #95999c;
+}

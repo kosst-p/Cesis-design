@@ -1,0 +1,93 @@
+.demo{
+    max-width: 1920px;
+    max-height: 953px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../../build/img/backgrounds/notebook_bg.png);
+    background-color: #1a1d2b;
+    background-size: cover;
+    background-position: center;
+    .my-container{
+        width: 1440px;
+        margin: 0 auto;
+        padding-top: 185px;
+        padding-bottom: 185px;
+        display: flex;
+        .demo-left{
+            margin-right: 246px;
+            position: relative;
+            &:before{
+                content: url(../../build/img/iphone.png);
+                position: absolute;
+                width: auto;
+                right: -135px;
+                bottom: -32px;
+            }
+        }
+        .demo-right{
+            padding-top: 23px;
+            .demo-righ__first-title{
+                color: #999999;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 30.03px;
+                text-transform: uppercase;
+                letter-spacing: 2.24px;
+                margin-bottom: 12px;
+            }
+            .demo-righ__second-title{
+                color: #ffffff;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 44.05px;
+                letter-spacing: -1.8px;
+                margin-bottom: 25px;
+            }
+            .demo-righ__descr-big{
+                color: #999999;
+                font-family: "Open Sans";
+                font-size: 23px;
+                font-weight: 300;
+                line-height: 44.05px;
+                margin-bottom: 20px;
+            }
+            .demo-righ__descr-small{
+                color: #b4b4b4;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 30px;
+                margin-bottom: 46px;
+            }
+            .demo-right__quality{
+                display: flex;
+                margin-bottom: 33px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                .icon-quality{
+                    margin-right: 30px;
+                }
+                .quality-works{
+                    .quality-works-title{
+                        color: #ffffff;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin-bottom: 15px;
+                    }
+                    .quality-works-descr{
+                        color: #b4b4b4;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 29.97px;
+                    }
+                }
+            }
+        }
+    }
+}
