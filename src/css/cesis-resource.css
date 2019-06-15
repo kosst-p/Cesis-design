@@ -1,0 +1,192 @@
+.cesis-resource {
+  max-width: 1920px;
+  width: 100%;
+  min-height: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.cesis-resource .left__resource {
+  background-image: url(../../build/img/backgrounds/mac_bg.png);
+  width: 975px;
+  min-height: 1080px;
+  background-repeat: no-repeat;
+}
+.cesis-resource .left__resource .my-container {
+  width: 875px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.cesis-resource .left__resource .my-container .mac__btn-post {
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  outline: none;
+  margin-bottom: 533px;
+  transition: 0.7s;
+}
+.cesis-resource .left__resource .my-container .mac__btn-post:hover {
+  color: #14171d;
+  border: 1px solid #14171d;
+  background-color: #ffffff;
+}
+.cesis-resource .left__resource .my-container .mac__inner {
+  margin-left: 101px;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__date {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__question {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__descr {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.7;
+  margin-bottom: 69px;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__btn-read {
+  display: inline-block;
+  color: #14171d;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding-left: 47px;
+  padding-right: 47px;
+  text-decoration: none;
+  outline: none;
+  background-color: #ffffff;
+  transition: 0.7s;
+  border: 1px solid transparent;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__btn-read:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #14171d;
+}
+.cesis-resource .right__resource {
+  min-height: 1080px;
+}
+.cesis-resource .right__resource .queen {
+  background-image: url(../../build/img/backgrounds/queen_bg.png);
+  width: 945px;
+  background-repeat: no-repeat;
+}
+.cesis-resource .right__resource .queen .my_container {
+  width: 845px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.cesis-resource .right__resource .queen .my_container .queen__btn {
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  outline: none;
+  margin-bottom: 230px;
+  transition: 0.7s;
+}
+.cesis-resource .right__resource .queen .my_container .queen__btn:hover {
+  color: #14171d;
+  border: 1px solid #14171d;
+  background-color: #ffffff;
+}
+.cesis-resource .right__resource .queen .my_container .queen__inner {
+  margin-left: 89px;
+}
+.cesis-resource .right__resource .queen .my_container .queen__inner .queen__date {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+}
+.cesis-resource .right__resource .queen .my_container .queen__inner .queen__question {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.cesis-resource .right__resource .info {
+  width: 945px;
+  min-height: 540px;
+}
+.cesis-resource .right__resource .info .my-container {
+  text-align: center;
+  width: 530px;
+  padding-top: 269px;
+  margin: 0 auto;
+}
+.cesis-resource .right__resource .info .my-container .main__title {
+  color: #2a2d2e;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.8px;
+  margin-bottom: 79px;
+}
+.cesis-resource .right__resource .info .my-container .main__descr {
+  color: #95999c;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+.cesis-resource .right__resource .info .my-container .info__btn {
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  background-color: #2a2d2e;
+  padding-left: 44px;
+  padding-right: 45px;
+  text-decoration: none;
+  transition: 0.7s;
+  outline: none;
+  border: 1px solid transparent;
+}
+.cesis-resource .right__resource .info .my-container .info__btn i {
+  margin-left: 20px;
+}
+.cesis-resource .right__resource .info .my-container .info__btn:hover {
+  color: #2a2d2e;
+  background-color: #ffffff;
+  border: 1px solid #2a2d2e;
+}

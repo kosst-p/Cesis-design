@@ -1,0 +1,99 @@
+.cesis-plans{
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+    .main-title{
+        color: #2a2d2e;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44.05px;
+        letter-spacing: -1.8px;
+        margin-bottom: 32px;
+    }
+    .main-descr{
+        color: #95999c;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-bottom: 154px;
+    }
+    .plans{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border: 1px solid #d1d5dd;
+        border-radius: 10px;
+        position: relative;
+        .plans__card{
+            min-height: 765px;
+            border-right: 1px solid #d1d5dd;
+            &:last-child{
+                border-right: none;
+            }
+            .plans_img{
+                margin-bottom: 30px;
+                height: 116px;
+            }
+            .plans__title{
+                color: #2a2d2e;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 40px;
+            }
+            .plans_price{
+                background-image: linear-gradient(to right, #69d2e7 40%, #817bff 60%);
+                color:transparent;
+                background-clip: text;
+                font-family: "Open Sans";
+                font-size: 60px;
+                font-weight: 300;
+                line-height: 60px;
+                margin-bottom: 35px;
+                sup{
+                    background-image: linear-gradient(to right, #69d2e7 40%, #817bff 60%);
+                    color:transparent;
+                    background-clip: text;
+                }
+            }
+            .plans__works{
+            .plans__works-items{
+                list-style: none;
+                color: #b5b5b5;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 60px;
+                }
+            }
+            .plan__works-started{
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                .plans__btnn{
+                    font-family: 'Montserrat', sans-serif;
+                    padding: 20px 42px;
+                    transition: 0.7s;
+                    color: #14171d;
+                    font-size: 12px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: 1.2px;
+                    border: 1px solid #14171d;
+                    background-color: #ffffff;
+                    cursor: pointer;
+                    outline: none;
+                }
+                .plans__btnn-empty{
+                    background: transparent;
+                    border: 1px solid #14171d;
+                    &:hover{
+                        color: #ffffff;
+                        transition: 0.7s;
+                        background: linear-gradient(to right, #69d2e7 0%, #817bff 100%);
+                    }
+                }
+            }
+        }
+    }
+}

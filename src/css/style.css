@@ -4,12 +4,7 @@
 } */
 @import "../libs/normalize.css";
 html {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
   box-sizing: border-box;
-  /*     img{
-        max-width: 100%;
-    } */
 }
 html ul,
 html li,
@@ -19,6 +14,8 @@ html h3,
 html h4,
 html h5,
 html p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
@@ -411,6 +408,7 @@ html p {
   max-width: 1920px;
   max-height: 1080px;
   width: 100%;
+  margin: 0 auto;
 }
 .loves-cesis .future-work {
   width: 1145px;
@@ -475,18 +473,6 @@ html p {
   background-color: #b7b8ba;
   margin-right: 20px;
   transition: 0.5s;
-  /* .pagination__btn2{
-                        position: absolute;
-                        background-color: #49b120;
-                        width: 50px;
-                        height: 50px;
-                        top: 9px;
-                        right: 9px;
-                        left: 9px;
-                        bottom: 9px;
-                        border-radius: 50%;
-                        opacity: 1;
-                    } */
 }
 .loves-cesis .future-work .my-container .pagination .pagination__btn:hover {
   transform: scale(1.4);
@@ -512,4 +498,316 @@ html p {
   height: 1080px;
   background-image: url(../../build/img/backgrounds/man_bg.png);
   background-color: #b0b7b6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loves-cesis .man .my-container .man-play {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+.loves-cesis .man .my-container .man-play img {
+  position: absolute;
+  top: 40px;
+  left: 45px;
+}
+.cesis-plans {
+  text-align: center;
+  padding-top: 135px;
+  padding-bottom: 155px;
+}
+.cesis-plans .main-title {
+  color: #2a2d2e;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44.05px;
+  letter-spacing: -1.8px;
+  margin-bottom: 32px;
+}
+.cesis-plans .main-descr {
+  color: #95999c;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 154px;
+}
+.cesis-plans .plans {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border: 1px solid #d1d5dd;
+  border-radius: 10px;
+  position: relative;
+}
+.cesis-plans .plans .plans__card {
+  min-height: 765px;
+  border-right: 1px solid #d1d5dd;
+}
+.cesis-plans .plans .plans__card:last-child {
+  border-right: none;
+}
+.cesis-plans .plans .plans__card .plans_img {
+  margin-bottom: 30px;
+  height: 116px;
+}
+.cesis-plans .plans .plans__card .plans__title {
+  color: #2a2d2e;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+.cesis-plans .plans .plans__card .plans_price {
+  background-image: linear-gradient(to right, #69d2e7 40%, #817bff 60%);
+  color: transparent;
+  background-clip: text;
+  font-family: "Open Sans";
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+  margin-bottom: 35px;
+}
+.cesis-plans .plans .plans__card .plans_price sup {
+  background-image: linear-gradient(to right, #69d2e7 40%, #817bff 60%);
+  color: transparent;
+  background-clip: text;
+}
+.cesis-plans .plans .plans__card .plans__works .plans__works-items {
+  list-style: none;
+  color: #b5b5b5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.cesis-plans .plans .plans__card .plan__works-started {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.cesis-plans .plans .plans__card .plan__works-started .plans__btnn {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 42px;
+  transition: 0.7s;
+  color: #14171d;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border: 1px solid #14171d;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.cesis-plans .plans .plans__card .plan__works-started .plans__btnn-empty {
+  background: transparent;
+  border: 1px solid #14171d;
+}
+.cesis-plans .plans .plans__card .plan__works-started .plans__btnn-empty:hover {
+  color: #ffffff;
+  transition: 0.7s;
+  background: linear-gradient(to right, #69d2e7 0%, #817bff 100%);
+}
+.cesis-resource {
+  max-width: 1920px;
+  width: 100%;
+  min-height: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.cesis-resource .left__resource {
+  background-image: url(../../build/img/backgrounds/mac_bg.png);
+  width: 975px;
+  min-height: 1080px;
+  background-repeat: no-repeat;
+}
+.cesis-resource .left__resource .my-container {
+  width: 875px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.cesis-resource .left__resource .my-container .mac__btn-post {
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  outline: none;
+  margin-bottom: 533px;
+  transition: 0.7s;
+}
+.cesis-resource .left__resource .my-container .mac__btn-post:hover {
+  color: #14171d;
+  border: 1px solid #14171d;
+  background-color: #ffffff;
+}
+.cesis-resource .left__resource .my-container .mac__inner {
+  margin-left: 101px;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__date {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__question {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__descr {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.7;
+  margin-bottom: 69px;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__btn-read {
+  display: inline-block;
+  color: #14171d;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding-left: 47px;
+  padding-right: 47px;
+  text-decoration: none;
+  outline: none;
+  background-color: #ffffff;
+  transition: 0.7s;
+  border: 1px solid transparent;
+}
+.cesis-resource .left__resource .my-container .mac__inner .mac__btn-read:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #14171d;
+}
+.cesis-resource .right__resource {
+  min-height: 1080px;
+}
+.cesis-resource .right__resource .queen {
+  background-image: url(../../build/img/backgrounds/queen_bg.png);
+  width: 945px;
+  background-repeat: no-repeat;
+}
+.cesis-resource .right__resource .queen .my_container {
+  width: 845px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.cesis-resource .right__resource .queen .my_container .queen__btn {
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  outline: none;
+  margin-bottom: 230px;
+  transition: 0.7s;
+}
+.cesis-resource .right__resource .queen .my_container .queen__btn:hover {
+  color: #14171d;
+  border: 1px solid #14171d;
+  background-color: #ffffff;
+}
+.cesis-resource .right__resource .queen .my_container .queen__inner {
+  margin-left: 89px;
+}
+.cesis-resource .right__resource .queen .my_container .queen__inner .queen__date {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+}
+.cesis-resource .right__resource .queen .my_container .queen__inner .queen__question {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.cesis-resource .right__resource .info {
+  width: 945px;
+  min-height: 540px;
+}
+.cesis-resource .right__resource .info .my-container {
+  text-align: center;
+  width: 530px;
+  padding-top: 269px;
+  margin: 0 auto;
+}
+.cesis-resource .right__resource .info .my-container .main__title {
+  color: #2a2d2e;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.8px;
+  margin-bottom: 79px;
+}
+.cesis-resource .right__resource .info .my-container .main__descr {
+  color: #95999c;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+.cesis-resource .right__resource .info .my-container .info__btn {
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  background-color: #2a2d2e;
+  padding-left: 44px;
+  padding-right: 45px;
+  text-decoration: none;
+  transition: 0.7s;
+  outline: none;
+  border: 1px solid transparent;
+}
+.cesis-resource .right__resource .info .my-container .info__btn i {
+  margin-left: 20px;
+}
+.cesis-resource .right__resource .info .my-container .info__btn:hover {
+  color: #2a2d2e;
+  background-color: #ffffff;
+  border: 1px solid #2a2d2e;
+}
+.cesis-talk {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../../build/feedback-bg.png);
 }
