@@ -33,6 +33,14 @@
 .best-brands .border-right-img:last-child {
   border-right: none;
 }
+.best-brands .border-right-img img {
+  filter: grayscale(100%);
+  transition: 0.7s;
+}
+.best-brands .border-right-img img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.25);
+}
 .best-brands .border-bottom-img {
   border-bottom: 1px solid #95999c;
 }

@@ -401,6 +401,14 @@ html p {
 .best-brands .border-right-img:last-child {
   border-right: none;
 }
+.best-brands .border-right-img img {
+  filter: grayscale(100%);
+  transition: 0.7s;
+}
+.best-brands .border-right-img img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.25);
+}
 .best-brands .border-bottom-img {
   border-bottom: 1px solid #95999c;
 }
@@ -708,6 +716,7 @@ html p {
 .cesis-resource .right__resource .queen {
   background-image: url(../../build/img/backgrounds/queen_bg.png);
   width: 945px;
+  height: 540px;
   background-repeat: no-repeat;
 }
 .cesis-resource .right__resource .queen .my_container {
@@ -756,12 +765,12 @@ html p {
 }
 .cesis-resource .right__resource .info {
   width: 945px;
-  min-height: 540px;
+  height: 540px;
 }
 .cesis-resource .right__resource .info .my-container {
   text-align: center;
   width: 530px;
-  padding-top: 269px;
+  padding-top: 129px;
   margin: 0 auto;
 }
 .cesis-resource .right__resource .info .my-container .main__title {
@@ -807,7 +816,120 @@ html p {
 }
 .cesis-talk {
   max-width: 1920px;
+  min-height: 1080px;
   width: 100%;
   margin: 0 auto;
-  background-image: url(../../build/feedback-bg.png);
+  background-image: url(../../build/img/backgrounds/feedback_bg.png);
+  background-color: #15181d;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  padding-top: 167px;
+  padding-bottom: 130px;
+}
+.cesis-talk:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #14171d;
+  opacity: 0.9;
+}
+.cesis-talk .main-title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.8px;
+  margin-bottom: 54px;
+}
+.cesis-talk .main-descr {
+  color: #95999c;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 54px;
+}
+.cesis-talk .cesis-talk__form {
+  z-index: 2;
+  margin-bottom: 50px;
+}
+.cesis-talk .cesis-talk__form input {
+  background-color: transparent;
+  color: #999999;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 36px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #444957;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+.cesis-talk .cesis-talk__form input:focus {
+  color: #e5e5e5;
+  font-family: "Open Sans - Semibold";
+  font-weight: 400;
+}
+.cesis-talk .cesis-talk__form select {
+  padding: 0;
+  padding-left: 25px;
+  background-color: transparent;
+  color: #999999;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 36px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #444957;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.cesis-talk .cesis-talk__form select:focus {
+  font-family: "Open Sans - Semibold";
+  font-weight: 400;
+}
+.cesis-talk .cesis-talk__form .cesis-talk__btnn {
+  border-radius: 3px;
+  width: 100%;
+  font-family: "Open Sans";
+  padding: 20px 42px;
+  transition: 0.7s;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.56px;
+  border: 1px solid #444957;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.cesis-talk .cesis-talk__form .cesis-talk__btnn-empty {
+  background: transparent;
+  border: 1px solid #444957;
+}
+.cesis-talk .cesis-talk__form .cesis-talk__btnn-empty:hover {
+  color: #ffffff;
+  transition: 0.7s;
+  background: linear-gradient(to right, #69d2e7 0%, #817bff 100%);
+}
+.cesis-talk .cesis-talk__fields {
+  color: #999999;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 36px;
 }

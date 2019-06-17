@@ -362,8 +362,10 @@
                     <p class="mac__question">How to improve your designs?</p>
                     <p class="mac__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum <br> dolore eu fugiat nulla pariatur. Duis aute irure
+                        exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in
+                        reprehenderit in voluptate velit esse cillum <br> dolore eu fugiat nulla pariatur. Duis aute
+                        irure
                         dolor in reprehenderit...</p>
                     <a href="" class="mac__btn-read">Read more</a>
                 </div>
@@ -400,14 +402,63 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xl-6">
-                    <form>
-
+                <div class="col-xl-5">
+                    <form action="" class="cesis-talk__form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="cesis-talk__name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="cesis-talk__email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="cesis-talk__phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="cesis-talk__company" placeholder="Company Name">
+                        </div>
+                        <select class="custom-select cesis-talk__select">
+                            <option selected disabled>Your Budget</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>
+                            <option value="4">four</option>
+                        </select>
+                        <button class="cesis-talk__btnn cesis-talk__btnn-empty">Send me a qoute</button>
                     </form>
+                    <p class="cesis-talk__fields">
+                        All fields are required
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Блок Newsletter -->
+    <section class="cesis-newsletter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <form>
+                        <input type="text" placeholder="Sign up our newsletter" class="cesis-newsletter__input">
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <ul class="cesis-newsletter__list d-flex">
+                            <li class="cesis-newsletter__list-item">Home</li>
+                            <li class="cesis-newsletter__list-item">Demos</li>
+                            <li class="cesis-newsletter__list-item">Pages</li>
+                            <li class="cesis-newsletter__list-item">Elements</li>
+                            <li class="cesis-newsletter__list-item">Portfolio</li>
+                            <li class="cesis-newsletter__list-item">Blog</li>
+                            <li class="cesis-newsletter__list-item">Shop</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
 
     <!--  Подключение скриптов Bootstrap 4 -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

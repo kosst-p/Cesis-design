@@ -33,6 +33,14 @@
         &:last-child{
             border-right: none;
         }
+        img{
+            filter: grayscale(100%);
+            transition: 0.7s;
+            &:hover{
+                filter: grayscale(0%);
+                transform: scale(1.25);
+            }
+        }
     }
     //граница снизу, при добавлении новых брендов, нужно будет добавлять(менять) этот класс
     .border-bottom-img{

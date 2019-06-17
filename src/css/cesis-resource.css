@@ -93,6 +93,7 @@
 .cesis-resource .right__resource .queen {
   background-image: url(../../build/img/backgrounds/queen_bg.png);
   width: 945px;
+  height: 540px;
   background-repeat: no-repeat;
 }
 .cesis-resource .right__resource .queen .my_container {
@@ -141,12 +142,12 @@
 }
 .cesis-resource .right__resource .info {
   width: 945px;
-  min-height: 540px;
+  height: 540px;
 }
 .cesis-resource .right__resource .info .my-container {
   text-align: center;
   width: 530px;
-  padding-top: 269px;
+  padding-top: 129px;
   margin: 0 auto;
 }
 .cesis-resource .right__resource .info .my-container .main__title {
