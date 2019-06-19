@@ -3,15 +3,26 @@
   width: 100%;
   margin: 0 auto;
   min-height: 374px;
-  border: 1px solid red;
   text-align: center;
   padding-top: 129px;
   padding-bottom: 39px;
 }
 .cesis-newsletter form {
   margin-bottom: 99px;
+  position: relative;
 }
-.cesis-newsletter form .cesis-newsletter__input {
+.cesis-newsletter form .input_wrapper {
+  position: relative;
+}
+.cesis-newsletter form .input_wrapper:before {
+  position: absolute;
+  content: url(../../build/img/arrow-right.png);
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  cursor: pointer;
+}
+.cesis-newsletter form .input_wrapper .cesis-newsletter__input {
   width: 100%;
   background-color: transparent;
   border: none;
@@ -26,8 +37,14 @@
   text-transform: uppercase;
   letter-spacing: 2.41px;
 }
-.cesis-newsletter form .cesis-newsletter__input::placeholder {
-  color: #000000;
+.cesis-newsletter form .input_wrapper .cesis-newsletter__input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #282828;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24.88px;
+  text-transform: uppercase;
+  letter-spacing: 2.41px;
 }
 .cesis-newsletter .cesis-newsletter__list {
   list-style: none;
