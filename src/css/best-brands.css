@@ -1,10 +1,10 @@
 .best-brands {
-  text-align: center;
-  padding-top: 115px;
-  padding-bottom: 115px;
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 115px;
 }
 .best-brands .main-title {
   color: #2a2d2e;
