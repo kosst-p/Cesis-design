@@ -19,18 +19,6 @@ const less = require('gulp-less');
 //Сжатие картинок
 const imagemin = require('gulp-imagemin');
 
-//Массив для подключения CSS фалов
-/* const styleFiles = [
-    './src/css/media.css',
-    './src/css/main.css'
-] */
-
-//Массив для подключения JS фалов
-/* const scriptFiles = [
-    './src/js/lib.js',
-    './src/js/main.js'
-] */
-
 //Таск для обработки стилей
 gulp.task('styles', () => {
     //Шаблон для поиска файлов CSS
@@ -60,7 +48,7 @@ gulp.task('styles', () => {
 gulp.task('scripts', () => {
     //Шаблон для поиска файлов JS
     //Все файлы по шаблону './src/js/**/*.js'
-    return gulp.src(jsFiles)
+    return gulp.src('./src/js/main.js')
         //Объединение файлов в один
         .pipe(concat('script.js'))
         //Минификация JS файла
@@ -119,4 +107,4 @@ gulp.task('watch', () => {
 
 
 //Общий таск. Запускает последовательно таск del и directories после этого в параллельном режиме запускаются такски styles, scripts и img-compres  и такс watch для слежения.
-gulp.task('default', gulp.series('del', gulp.parallel('styles', 'img-compress', 'fonts'), 'watch')); //при необходимости добавить 'scripts'
+gulp.task('default', gulp.series('del', gulp.parallel('styles', 'scripts', 'img-compress', 'fonts'), 'watch')); //при необходимости добавить 'scripts'
