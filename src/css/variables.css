@@ -29,7 +29,7 @@ html #toTop {
   cursor: pointer;
   display: none;
   color: black;
-  background: #69d2e7;
+  background: linear-gradient(to right, #69d2e7 0%, #817bff 100%);
 }
 *,
 *:after,

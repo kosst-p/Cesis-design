@@ -1,6 +1,6 @@
 .header {
-  min-height: 990px;
   max-width: 1920px;
+  min-height: 990px;
   width: 100%;
   margin: 0 auto;
   background-image: url(../../build/img/backgrounds/0-header.png);
@@ -18,12 +18,33 @@
   background-color: #12181c;
   opacity: 0.7;
 }
+@media (min-width: 320px) and (max-width: 991px) {
+  .header {
+    background-attachment: fixed;
+    padding-bottom: 50px;
+  }
+}
 .header .my-container {
   padding-top: 439px;
   z-index: 1;
   width: 1030px;
   margin: 0 auto;
   opacity: 0.8;
+}
+@media (min-width: 320px) and (max-width: 991px) {
+  .header .my-container {
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1919px) {
+  .header .my-container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 .header .my-container .title {
   text-align: center;
@@ -38,6 +59,12 @@
   text-transform: uppercase;
   margin-bottom: 25px;
 }
+@media (min-width: 320px) and (max-width: 991px) {
+  .header .my-container .title .name {
+    font-size: 65px;
+    margin-bottom: 200px;
+  }
+}
 .header .my-container .title .description {
   letter-spacing: 8px;
   font-weight: 400;
@@ -45,6 +72,11 @@
   font-size: 20px;
   color: #ffffff;
   margin-bottom: 49px;
+}
+@media (min-width: 320px) and (max-width: 991px) {
+  .header .my-container .title .description {
+    margin-bottom: 200px;
+  }
 }
 .header .my-container .title .btn {
   font-family: 'Montserrat', sans-serif;

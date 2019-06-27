@@ -24,12 +24,14 @@ $(document).ready(function () {
 
     /* Изменение цвета при наведении мыши на скролл */
     $('#toTop').mouseover(function() {
-        $(this).css('background-color', 'yellow');
+        $('i').css('color', 'white')
+       /*  $(this).css('background', 'yellow'); */
     })
     
     /* Изменение цвета скролла после того, как мышь убрали */
     $('#toTop').mouseout(function() {
-        $(this).css('background-color', '#69d2e7');
+        $('i').css('color', 'black')
+        $(this).css('background', 'linear-gradient(to right, #69d2e7 0%, #817bff 100%)');
     })
 
 

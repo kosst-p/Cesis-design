@@ -1,6 +1,6 @@
 .header{
-    min-height: 990px;
     max-width: 1920px;
+    min-height: 990px;
     width: 100%;
     margin: 0 auto;
     background-image: url(../../build/img/backgrounds/0-header.png);
@@ -17,17 +17,31 @@
         background-color: #12181c;
         opacity: 0.7;
     }
+    @media(min-width: 320px) and (max-width: 991px){
+        background-attachment: fixed;
+        padding-bottom: 50px;
+    }
     .my-container{
         padding-top: 439px;
         z-index: 1;
         width: 1030px;
         margin: 0 auto;
         opacity: 0.8;
+        @media(min-width: 320px) and (max-width: 991px){
+            padding-top: 50px;
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @media(min-width: 320px) and (max-width: 1919px){
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
         .title{
             text-align: center;
             margin-bottom: 274px;
             .name{
-                
                 font-family: 'Arimo', sans-serif; 
                 color: #ffffff;
                 font-size: 75px;
@@ -35,15 +49,21 @@
                 letter-spacing: 1px;
                 text-transform: uppercase;
                 margin-bottom: 25px;
+                @media(min-width: 320px) and (max-width: 991px){
+                    font-size: 65px;
+                    margin-bottom: 200px;
+                    }
             }
             .description{
-                
                 letter-spacing: 8px;
                 font-weight: 400;
                 text-transform: uppercase;
                 font-size: 20px;
                 color: #ffffff;
                 margin-bottom: 49px;
+                @media(min-width: 320px) and (max-width: 991px){
+                    margin-bottom: 200px;
+                    }
             }
             .btn{
                 font-family: 'Montserrat', sans-serif;
